@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+header{
+    /*background: red;*/
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 500px;
+    border: 1px solid #b2bec3;
+    border-radius: 5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.google-logo img {
+    width: 20%;
+}
+
+.left {
+    flex-basis: 50%;
+}
+
+.right {
+    flex-basis: 50%;
+}
+
+.right img {
+    width: 80%;
+    float: right;
+    padding-top: 25%;
+}
+
+.right p {
+    text-align: center;
+    margin: auto;
+    max-width: 16rem;
+    float: right;
+    padding: 10px;
+}
+
+h2{
+    color: #2d3436;
+    margin: 1rem 0;
+}
+
+.name {
+    border-radius: 5px;
+    border:1px solid #b2bec3;
+    padding: 10px;
+    width: 200px;
+    
+}
+
+.email {
+    border-radius: 5px;
+    border: 1px solid #b2bec3;
+    width: 100%;
+    padding: 10px;
+}
+ span{
+    color: dimgrey;
+    padding-left: 10px;
+    font-size: small;
+ }
+
+ .link a {
+    text-decoration: none;
+    color: #1a73e8;
+ }
+
+ .link a:hover{
+    background-color: #b2bec3;
+    color: midnightblue;
+ }
+
+
+ .password {
+    padding-top: 20px;
+ }
+
+ .password  input {
+    border: 1px solid #b2bec3;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+.show-password {
+    padding: 15px;
+}
+
+.show-password span {
+    font-size: medium;
+    color: #2d3436;
+}
+
+.link-2 {
+    padding: 50px 0;
+}
+
+.link-2 a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.link-2 button {
+    float: right;
+    border: none;
+}
+
+.link-2 input {
+    padding: 10px 25px 10px 25px;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    font-size: large;
+}
+
+.link-2 a:hover{
+    background-color: #b2bec3;
+    color: midnightblue;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-color: #b2bec3;
+    color: black;
+}
